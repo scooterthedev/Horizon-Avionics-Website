@@ -4,10 +4,10 @@ import CursorGlow from './components/CursorGlow';
 export default function Home() {
   return (
     <CursorGlow>
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-sans-serif)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-sans-geist)]">
       <header className="row-start-1 flex items-center center">
-        <div className ="text-6xl font-bold tracking-[-.01em]">
-          <a className = "tracking-[-.01em] text-foreground">
+        <div className ="text-7xl font-bold tracking-[-.01em]">
+          <a className = "tracking-[-.01em] text-foreground font-arial">
             Horizon Avionics
           </a>
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
             <Image
               className="dark"
               src="/github.svg"
-              alt="Vercel logomark"
+              alt="github logomark"
               width={35}
               height={35}
             />
